@@ -1,13 +1,16 @@
 {
   "name": "CoinbaseProDCA",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple (DCA) bot that invests in BTC using first USDC on Coinbase Pro, based on market conditions.",
   "main": "index.js",
   "scripts": {
+    "start": "npx tsx index.ts",
+    "build": "tsc",
+    "dev": "npx tsx index.ts", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["coinbase", "DCA", "cryptocurrency", "bot", "BTC", "USDC"],
+  "author": "nigthguarder",
   "license": "ISC",
   "dependencies": {
     "@coinbase/coinbase-sdk": "^0.13.0",
