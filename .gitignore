@@ -149,7 +149,7 @@ dist
 # Local env files
 .env
 .env.local
-key
-secure
+key/*
+secure/*
 #Mac OS
 .DS_Store
